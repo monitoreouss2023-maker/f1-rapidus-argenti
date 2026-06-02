@@ -1,0 +1,62 @@
+/* Configuración general y Modo Oscuro */
+body {
+    background-color: #15151e; /* El gris oscuro oficial que usa la F1 en su web */
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Encabezado / Navbar */
+header {
+    background-color: #e10600; /* El rojo furioso de la F1 */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+header p {
+    margin: 5px 0 0 0;
+    opacity: 0.9;
+}
+
+/* Contenedor principal */
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Tarjetas para las secciones */
+h2 {
+    color: #e10600;
+    border-bottom: 2px solid #38383f;
+    padding-bottom: 8px;
+    margin-top: 30px;
+}
+
+/* Separador estético */
+hr {
+    border: 0;
+    height: 1px;
+    background: #38383f;
+    margin: 20px 0;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #88888d;
+    font-size: 0.9rem;
+    margin-top: 50px;
+    border-top: 1px solid #38383f;
+}
