@@ -8,24 +8,39 @@ body {
     line-height: 1.6;
 }
 
-/* Encabezado / Navbar */
+/* Encabezado / Navbar - Estilo F1 Argentino */
 header {
-    background-color: #e10600; /* El rojo furioso de la F1 */
-    color: white;
-    padding: 20px;
+    background-color: #e10600; /* El rojo F1 que queda como borde exterior */
+    color: #15151e; /* Cambiamos el texto a oscuro para que se lea sobre la bandera */
+    padding: 10px 20px; /* Reducimos el relleno para que el borde rojo sea fino */
     text-align: center;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+/* El "contenedor" de la bandera dentro del encabezado */
+header div.bandera-container {
+    background: linear-gradient(
+        to bottom,
+        #74ACDF 0%, #74ACDF 33.33%, /* Franja Azul Celeste (arriba) */
+        #FFFFFF 33.33%, #FFFFFF 66.66%, /* Franja Blanca (medio) */
+        #74ACDF 66.66%, #74ACDF 100%   /* Franja Azul Celeste (abajo) */
+    );
+    padding: 15px; /* Relleno interno para separar el texto del borde de la bandera */
+    border-radius: 4px; /* Un toquecito redondeado para el estilo */
 }
 
 header h1 {
     margin: 0;
     font-size: 2.5rem;
     letter-spacing: 1px;
+    color: #15151e; /* Título oscuro para contraste */
 }
 
 header p {
     margin: 5px 0 0 0;
     opacity: 0.9;
+    color: #15151e; /* Subtítulo oscuro para contraste */
+}
 }
 
 /* Contenedor principal */
